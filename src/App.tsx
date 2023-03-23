@@ -12,6 +12,7 @@ import Users from "./pages/dashboard/components/Users/Users";
 import Products from "./pages/dashboard/components/Products";
 
 function App() {
+  console.log("HI");
   const user = useAppSelector(selectUser);
 
   return (
