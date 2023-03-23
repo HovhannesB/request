@@ -3,6 +3,7 @@ import config from "../config";
 
 const useLegacyEffect = (cb: any, deps: any) => {
   const isMountedRef = useRef(config.environment !== "development");
+  console.log("HI");
 
   useEffect(() => {
     if (!isMountedRef.current) {
